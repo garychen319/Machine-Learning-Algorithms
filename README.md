@@ -22,16 +22,22 @@ After each of these ten runs, the program will print a new line to the output fi
 
 III. Classification
 
-SVM with Linear Kernel. Observed the performance of the SVM with linear kernel and searched for a good setting of parameters to obtain high classification accuracy. Specifically, values of C = [0.1, 0.5, 1, 5, 10, 50, 100]. 
+• SVM with Linear Kernel. Observed the performance of the SVM with linear kernel and searched for a good setting of parameters to obtain high classification accuracy. Specifically, values of C = [0.1, 0.5, 1, 5, 10, 50, 100]. 
+
 • SVM with Polynomial Kernel. (Similar to above).
 Try values of C = [0.1, 1, 3], degree = [4, 5, 6], and gamma = [0.1, 1].
+
 • SVM with RBF Kernel. (Similar to above).
 Try values of C = [0.1, 0.5, 1, 5, 10, 50, 100] and gamma = [0.1, 0.5, 1, 3, 6, 10].
+
 • Logistic Regression. (Similar to above). Try values of C = [0.1, 0.5, 1, 5, 10, 50, 100].
+
 • k-Nearest Neighbors. (Similar to above).
 Try values of n_neighbors = [1, 2, 3, ..., 50] and leaf_size = [5, 10, 15, ..., 60].
+
 • Decision Trees. (Similar to above).
 Try values of max_depth = [1, 2, 3, ..., 50] and min_samples_split = [1, 2, 3, ..., 10].
+
 • Random Forest. (Similar to above).
 Try values of max_depth = [1, 2, 3, ..., 50] and min_samples_split = [1, 2, 3, ..., 10].
 
